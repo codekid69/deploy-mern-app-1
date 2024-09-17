@@ -21,7 +21,7 @@ function Login() {
       return handleError("Please fill all the feilds");
     }
     try {
-      const url = "http://localhost:8080/auth/login";
+      const url = "https://deploy-mern-app-1-api-sigma.vercel.app/auth/login";
       const reponse = await fetch(url, {
         method: "POST",
         headers: {
