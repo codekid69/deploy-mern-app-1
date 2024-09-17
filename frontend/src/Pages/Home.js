@@ -19,7 +19,7 @@ function Home() {
   }
   const fetchProducts=async()=>{
     try{
-      const url="http://localhost:8080/products";
+      const url="https://deploy-mern-app-1-api-sigma.vercel.app/products";
       const response=await fetch(url,{
         method:"GET",
         headers: {
